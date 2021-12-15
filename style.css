@@ -1,0 +1,38 @@
+html {
+    min-height: 100%;
+    background-image: url(backgound-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.opening{
+    width: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+}
+.opening img{
+    width: 300px; 
+    padding-top: 70px;
+
+}
+.judul {
+    width: 100%;
+    display: flex;
+    background-position: center;
+    align-items: center;   
+    justify-content: center;
+}
+.judul h1{
+    font-family: 'Montserrat';
+    font-size: 50px;
+    font-weight: 600;
+}
+.judul h2{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 400;
+}
